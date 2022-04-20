@@ -1,0 +1,23 @@
+.footer {
+  background-color: aliceblue;
+  &__title {
+    font-family: "Manrope";
+    font-weight: 700;
+  }
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .footer {
+    &__image {
+      width: 70px;
+    }
+    &__list {
+      gap: 15px;
+    }
+  }
+}

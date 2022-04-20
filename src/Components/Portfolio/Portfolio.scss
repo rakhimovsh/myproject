@@ -1,0 +1,84 @@
+.portfolio {
+  overflow-x: hidden;
+  background-color: rgb(245, 252, 250);
+  &__title {
+    font-family: "Manrope";
+    font-weight: 700;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 25px;
+  }
+  &__item {
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 450px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: aliceblue;
+  }
+  &__item:nth-child(odd) {
+    margin-left: 100px;
+    margin-right: auto;
+  }
+  &__item:nth-child(even) {
+    margin-right: 100px;
+    margin-left: auto;
+  }
+  &__link {
+    text-decoration: none;
+    color: black;
+  }
+  &__name {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  &__inner {
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+  }
+  &__img {
+    &--bootstrap {
+      max-width: 100px;
+    }
+    &--js {
+      max-width: 150px;
+    }
+    &--react {
+      max-width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .portfolio {
+    &__item:nth-child(odd) {
+      margin-left: 0;
+    }
+    &__item:nth-child(even) {
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (max-width: 465px) {
+  .portfolio {
+    &__img {
+      &--bootstrap {
+        max-width: 25%;
+      }
+      &--js {
+        max-width: 30%;
+      }
+      &--react {
+        max-width: 25%;
+      }
+    }
+  }
+}
