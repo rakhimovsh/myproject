@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="footer py-5">
       <div className="container">
-        <h2 className="footer__title mb-4">Me in social network</h2>
+        <h2 className="footer__title mb-4">Me in social networks</h2>
         <ul className="footer__list d-flex align-items-center flex-wrap justify-content-center">
           <li className="footer__item">
             <a href="https://github.com/RakhimovSh" target="_blank">
