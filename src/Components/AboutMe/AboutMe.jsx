@@ -9,12 +9,10 @@ function AboutMe() {
       <div className="about__inner">
         <h2>About me</h2>
         <p className="about__desc">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore,
-          repudiandae. Numquam explicabo dolore non excepturi tempore nemo
-          voluptates dolor, labore ab. Iure laudantium voluptate delectus,
-          obcaecati quam, numquam, ex eius aliquid corporis error adipisci ut
-          eveniet. Dolorem molestias, ipsum, quisquam recusandae culpa, officia
-          quis numquam molestiae ipsa non aut sint.
+          Very inquisitive and hardworking programmer, just finished forntend
+          and learning backend. Can create web applications with React.js,
+          easily learn other libraries as needed. If you are interested, you can
+          contact me through social networks or the form below
         </p>
         <button
           onClick={() => (window.location.href = resume)}
